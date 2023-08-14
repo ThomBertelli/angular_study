@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrimeitoComponentComponent } from './primeiro-componente/primeiro-componente.component';
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
+import { MultiplicaPorPipe } from './multiplica-por.pipe';
+import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeitoComponentComponent,
-    SegundoComponenteComponent
+    SegundoComponenteComponent,
+    MultiplicaPorPipe,
+    PipeCustomizadoComponent
   ],
   imports: [
     BrowserModule,
