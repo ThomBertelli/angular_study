@@ -6,3 +6,9 @@
 
 <!-- FORMATAÇÃO DE DATAS -->
 <p>Data Nascimento: {{dataNascimento | date: "dd/MM/yyy"}}</p>
+
+<!-- PROPERTY BINDING -->
+<img [src]="urlImagem" width="300">
+
+<!-- EVENT BINDING -->
+<button (click)="mostrarDataNascimento()" type="button">Mostrar data de Nascimento</button>
