@@ -15,6 +15,8 @@ import { ComponentePaiComponent } from './componente-pai/componente-pai.componen
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
 import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
+import { ClicloDeVidaComponent } from './cliclo-de-vida/cliclo-de-vida.component';
+import { ClicloDeVidaPaiComponent } from './cliclo-de-vida-pai/cliclo-de-vida-pai.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2
     ComponentePaiComponent,
     ComponenteFilhoComponent,
     ExemploServicos1Component,
-    ExemploServicos2Component
+    ExemploServicos2Component,
+    ClicloDeVidaComponent,
+    ClicloDeVidaPaiComponent
   ],
   imports: [
     BrowserModule,
