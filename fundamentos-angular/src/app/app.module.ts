@@ -17,6 +17,7 @@ import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1
 import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
 import { ClicloDeVidaComponent } from './cliclo-de-vida/cliclo-de-vida.component';
 import { ClicloDeVidaPaiComponent } from './cliclo-de-vida-pai/cliclo-de-vida-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ClicloDeVidaPaiComponent } from './cliclo-de-vida-pai/cliclo-de-vida-pa
     ExemploServicos1Component,
     ExemploServicos2Component,
     ClicloDeVidaComponent,
-    ClicloDeVidaPaiComponent
+    ClicloDeVidaPaiComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
