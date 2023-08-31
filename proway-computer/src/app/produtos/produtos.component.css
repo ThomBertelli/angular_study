@@ -39,6 +39,10 @@
     border-radius: 4px;
 }
 
+.product-list__card a {
+    text-decoration: none;
+}
+
 .product-item__name {
     font-size: 24px;
     color: var(--blue);
@@ -50,7 +54,7 @@
     font-weight: bold;
 }
 
-.product-item__price-deion {
+.product-item__price-description {
     color: var(--gray);
     font-size: 12px;
     font-weight: bold;
