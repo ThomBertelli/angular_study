@@ -6,23 +6,12 @@ import { CarrinhoService } from '../carrinho.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit  {
+export class HeaderComponent  {
 
-  qtdItensCarrinho = 0
-
+ 
   constructor(
     public carrinhoService : CarrinhoService
   ){ }
 
-  ngOnInit(): void {
-    const qtdItensCarrinho = this.carrinhoService.obtemCarrinho().length
-    if(qtdItensCarrinho > 0){
-      this.qtdItensCarrinho = qtdItensCarrinho
-    }
-  }
-
-  
-
-    
 
 }
